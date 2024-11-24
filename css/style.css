@@ -72,15 +72,22 @@ body,
 
 .hand,
 .pin {
-  right: 50%;
+  right: 135px;
   height: 6px;
   background: var(--hr-min-color);
   position: absolute;
-  top: 50%;
+  top: 149px;
   border-radius: 6px;
   transform-origin: 100%;
   transform: rotate(90deg);
 }
+
+/* @media(max-width: 400px){
+  .hand,
+.pin {
+  top: 80;
+} */
+
 
 .hand.hour {
   width: 52px;
